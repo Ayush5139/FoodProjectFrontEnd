@@ -1,0 +1,111 @@
+body {
+    overflow-x: hidden;
+}
+
+.bannermaindiv {
+    width: 1216px;
+    margin-top: 2%;
+    margin-left: 9%;
+}
+
+.bannerimg {
+    width: 100%;
+    box-shadow: 5px -5px 50px;
+}
+
+.bannerminiidiv {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    text-align: left;
+}
+
+.bannerdivh {
+    color: white;
+    box-sizing: inherit;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 900;
+    display: block;
+    font-size: 48px;
+    line-height: 56px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 580px;
+}
+
+.bannerbtn {
+    margin-top: 2%;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2f2f2f;
+    background-color: #f5ce35;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 0px;
+    padding: 16px 32px;
+}
+
+.bannerlink {
+    font-size: 16px;
+    color: #2f2f2f;
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width:480px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .bannermaindiv {
+        width: 428px;
+        height: 241px;
+        margin-top: 2%;
+        margin-left: 5%;
+        display: block;
+        box-shadow: 0px;
+    }
+
+    .bannerimg {
+        width: 100%;
+    }
+
+    .bannerminiidiv {
+        position: static;
+        top: 50%;
+        left: 15%;
+        text-align: left;
+    }
+
+    .bannerdivh {
+        color: black;
+        box-sizing: inherit;
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 600;
+        display: block;
+        font-size: 46px;
+        line-height: 56px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 450px;
+    }
+    .bardiv {
+        height: 32px;
+        width: 470px;
+        background-color: #f2f2f2;
+        margin-top: 42%;
+        margin-left: 1%;
+    }
+
+}

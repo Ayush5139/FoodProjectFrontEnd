@@ -1,0 +1,92 @@
+.searchmain {
+    background-color: #f1f1f1;
+}
+
+.multicards {
+    width: 1100px;
+    margin-left: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 300px;
+}
+
+.searchcards {
+    width: 245px;
+    height: 372px;
+    background-color: white;
+    margin: 1%;
+    text-align: left;
+    border-bottom: 4px solid #77E2E1;
+}
+
+.searchcardimg {
+    height: 180px;
+    width: 245px;
+}
+
+.searchsubdiv {
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+    align-items: flex-end;
+}
+
+.searchcardauthor {
+    margin: 2%;
+    font-family: Gotham,"sans serif",sans-serif,"Helvetica Neue",Helvetica,arial;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    text-transform: none;
+    white-space: normal;
+    letter-spacing: 0;
+    color: #000;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 16px;
+    height: 100px;
+}
+
+.searchcardtitle {
+    margin: 2%;
+}
+
+.searchcardtitle {
+    cursor: pointer;
+    width: 220px;
+    font-size: 20px;
+    color: #000;
+    height: 30px;
+    overflow: hidden;
+    font-family: brandon-grotesque, "sans serif", sans-serif, "Helvetica Neue", Helvetica, arial;
+    font-style: normal;
+    font-stretch: normal;
+    text-transform: uppercase;
+    white-space: normal;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+.searchresults{
+    color: #000;
+    font-family: brandon-grotesque,"sans serif",sans-serif,"Helvetica Neue",Helvetica,arial;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    text-transform: uppercase;
+    white-space: normal;
+    letter-spacing: 1px;
+    font-size: 44px;
+    line-height: 46px;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+    margin-left: 18%;
+    padding: 0.5%;
+}
+
+.mustloginp{
+    font-size: 48px;
+    margin-top: 10%;
+}

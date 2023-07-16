@@ -1,0 +1,214 @@
+.recipepagecontainer{
+    width: 994px;
+    height: 162px;
+    text-align: left;
+    margin-left: 18%;
+}
+
+.repicemulticat{
+    font-size: 16px;
+}
+
+.recipagetitle{
+    text-align: left;
+    font-family: brandon-grotesque,"sans serif",sans-serif,"Helvetica Neue",Helvetica,arial;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 36px;
+    width: 80%;
+    margin: 0;
+}
+
+.recipepagedes{
+    font-family: Gotham,"sans serif",sans-serif,"Helvetica Neue",Helvetica,arial;
+    font-weight: 400;
+    text-align: left;
+    width: 76%;
+    font-size: 12px;
+    line-height: 16px;
+    
+}
+
+.socialicons{
+    height: 50px;
+    width: 50px;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.recipemainimg{
+    width: 621px;
+    height: 349px;
+    margin-left: 18%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.recipemaincontainer{
+    width: 1520px;
+    background-color: #f2f2f2;
+    margin-left: -28%;
+    height: 560px;
+}
+
+.recipefloatingdiv{
+    width: 502px;
+    margin-top: -9.5%;
+    margin-left: 19.3%;
+    position: relative;
+    z-index: 2;
+    height: 158px;
+    font-family: Gotham,"sans serif",sans-serif,"Helvetica Neue",Helvetica,arial;
+    font-weight: 400;
+    color: #000;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 21px 35px;
+    border-bottom: 5px solid #77E2E1;
+}
+
+.floatingrecipe{
+    margin: 0;
+    font-family: brandon-grotesque,"sans serif",sans-serif,"Helvetica Neue",Helvetica,arial;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    margin-top: 2%;
+}
+
+.floatingtitle{
+    cursor: pointer;
+    color: #000;
+    font-family: brandon-grotesque,"sans serif",sans-serif,"Helvetica Neue",Helvetica,arial;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 2%;
+}
+
+.floatingdes{
+    font-family: Gotham,"sans serif",sans-serif,"Helvetica Neue",Helvetica,arial;
+    font-weight: 500;
+    color: #000;
+    cursor: pointer;
+    line-height: 16px;
+    text-align: left;
+    margin-top: -3%;
+    font-size: 13px;
+}
+
+.floatingauth{
+    font-family: Gotham,"sans serif",sans-serif,"Helvetica Neue",Helvetica,arial;
+    font-weight: 500;
+    color: #000;
+    cursor: pointer;
+    box-sizing: border-box;
+    line-height: 16px;
+    text-align: left;
+    margin-top: 1%;
+    font-size: 12px;
+}
+
+.recipefooterdiv{
+    margin-top: 5700px;
+}
+
+@media screen and (max-width:480px){
+    .recipepagecontainer {
+        width: 400px;
+        height: 162px;
+        text-align: left;
+        margin-left: 4%;
+    }
+
+    .recipagetitle {
+        text-align: left;
+        font-family: brandon-grotesque,"sans serif",sans-serif,"Helvetica Neue",Helvetica,arial;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 36px;
+        width:82%;
+        margin: 0;
+    }
+
+    .recipepagedes {
+        font-family: Gotham,"sans serif",sans-serif,"Helvetica Neue",Helvetica,arial;
+        font-weight: 400;
+        text-align: left;
+        width: 82%;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .recipemaincontainer {
+        width: 480px;
+        background-color: #f2f2f2;
+        margin-left: -6.5%;
+        height: 560px;
+    }
+
+    .recipemainimg {
+        width: 470px;
+        height: 349px;
+        margin-left: 2%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .recipefloatingdiv {
+        width: 390px;
+        margin-top: -22.5%;
+        margin-left: 3.3%;
+        position: relative;
+        z-index: 2;
+        height: 158px;
+        font-family: Gotham,"sans serif",sans-serif,"Helvetica Neue",Helvetica,arial;
+        font-weight: 400;
+        color: #000;
+        cursor: pointer;
+        background-color: #fff;
+        padding: 21px 35px;
+        border-bottom: 5px solid #77E2E1;
+    }
+
+    .floatingrecipe {
+        margin: 0;
+        font-family: brandon-grotesque,"sans serif",sans-serif,"Helvetica Neue",Helvetica,arial;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 13px;
+        margin-top: 0%;
+    }
+
+    .floatingtitle {
+        cursor: pointer;
+        color: #000;
+        font-family: brandon-grotesque,"sans serif",sans-serif,"Helvetica Neue",Helvetica,arial;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: left;
+        margin-top: 0%;
+    }
+
+    .floatingdes {
+        font-family: Gotham,"sans serif",sans-serif,"Helvetica Neue",Helvetica,arial;
+        font-weight: 500;
+        color: #000;
+        cursor: pointer;
+        line-height: 16px;
+        text-align: left;
+        margin-top: 1%;
+        font-size: 13px;
+    }
+}

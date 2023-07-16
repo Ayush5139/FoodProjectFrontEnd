@@ -1,0 +1,60 @@
+.profilecoverphoto{
+    background-color: #892074;
+    background: -webkit-linear-gradient(10deg,#892074 5%,#77E2E1 100%); 
+    height: 200px;
+}
+
+.profileitems{
+    display: flex;
+    align-items: center;
+}
+
+.emailtag{
+    color: #000;
+    font-family: Gotham,"sans serif",sans-serif,"Helvetica Neue",Helvetica,arial;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    text-transform: none;
+    white-space: normal;
+    letter-spacing: 0;
+    font-size: 14px;
+    margin-left: 1%;
+    text-transform: capitalize;
+}
+
+.datediv{
+    border-left: 1px black dotted;
+    display: flex;
+    align-items: center;
+}
+
+.mainprofile{
+    display: flex;
+    gap: 600px;
+    margin-left: 15%;
+}
+
+.profileimg{
+    height: 200px;
+    width: 200px;
+}
+
+.profileitems{
+    margin-top: -7%;
+}
+
+.datep{
+    font-size: 12px;
+    line-height: 16px;
+    color: #000;
+    font-family: Gotham,"sans serif",sans-serif,"Helvetica Neue",Helvetica,arial;
+    font-weight: 600;
+    width: 165px;
+}
+
+.extraprofilediv{
+    height: 500px;
+    background-color: #F0F0F0;
+    margin-top: -5%;
+}

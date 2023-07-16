@@ -1,0 +1,54 @@
+.fanafvdiv{
+    text-align: left;
+    width: 1216px;
+    margin-left: 9%;
+}
+.fanfavminidiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fanfavviewall{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #1769c2;
+}
+
+.fantitle{
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --truncate-lines: 4;
+    color: #2f2f2f;
+    font-family: var(--fonts-heading);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0%;
+    font-size: 32px;
+}
+
+.fanfavsallmapdiv{
+    display: flex;
+    gap: 27px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:480px) {
+    .fanafvdiv {
+        text-align: left;
+        width: 480px;
+        margin-left: 1%;
+    }
+
+    .fanfavsallmapdiv {
+        display: flex;
+        gap: 27px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        margin-bottom: 5%;
+    }
+
+}

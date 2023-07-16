@@ -1,0 +1,183 @@
+.savesdiv{
+    font-family: "Gotham", "Helvetica Neue", Helvetica, arial, sans serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+    white-space: normal;
+    height: 64px;
+    background-color: #000;
+    border-bottom: 5px solid #77e2e1;
+    display: flex;
+    align-items: center;
+}
+
+.savesp{
+    text-align: center;
+    font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, arial, sans serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: normal;
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 32px;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.boarddiv{
+    height: 82px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boardp{
+    list-style: none;
+    list-style-type: none;
+    line-height: 1;
+    font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, arial, sans serif;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    color: #000;
+    word-break: break-all;
+    visibility: visible;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.mainsaveddiv{
+    font-family: "Gotham", "Helvetica Neue", Helvetica, arial, sans serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+    white-space: normal;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    box-sizing: unset;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding: 0;
+    width: 966px;
+    min-height: 383px;
+    padding-bottom: 28px;
+}
+
+.displaycard{
+    height: 342px;
+    font-family: "Gotham", "Helvetica Neue", Helvetica, arial, sans serif;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0;
+    text-transform: none;
+    white-space: normal;
+    box-sizing: border-box;
+    display: block;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    margin: 0 7px;
+    width: 231px;
+    margin-bottom: 14px;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2px solid #77e2e1;
+    border-radius: 10px;
+}
+
+.plusbtn{
+    background-color: white;
+    border: 0px;
+    font-size: 25px;
+    display:  block;
+}
+.plusp{
+    font-size: 25px;
+}
+
+.minimapimage{
+    display: block;
+    text-align: left;
+    width: 231px;
+    border-bottom: 4px solid #77E2E1;
+    margin-bottom: 2%;
+}
+
+.mainsaveimage{
+    width: 231px;
+    height: 173px;
+    display: block;
+}
+
+.mainauthorimage{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    margin-left: 4%;
+    margin-top: -15%;    
+}
+
+.mainsavedpagesdiv{
+    display: flex;
+    width: 996px;
+    margin-left: 18%;
+    min-height: 500px;
+    gap: 15px;
+}
+
+.savedtitle{
+    color: #000;
+    cursor: pointer;
+    font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, arial, sans serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-size: 20px;
+    line-height: 25px;
+    word-break: break-word;
+    visibility: visible;
+    box-sizing: border-box;
+    padding: 0%;
+    height: 80px;
+}
+
+.savedauthor{
+    color: #000;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: "Gotham", "Helvetica Neue", Helvetica, arial, sans serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+    white-space: normal;
+    line-height: 12px;
+    font-size: 12px;
+    padding: 0%;
+}
+
+.savedrating{
+    margin-top: 30%;
+    padding: 0%;
+}

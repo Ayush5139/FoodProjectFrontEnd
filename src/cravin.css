@@ -1,0 +1,94 @@
+.maincravingdiv{
+    text-align: left;
+    width: 1216px;
+    margin-left: 9%;
+}
+
+.cravindiv{
+    display: flex;
+    gap: 32px;
+}
+
+.cravindivimg{
+    height: 384px;
+    width: 384px;
+}
+
+.minicravingdiv{
+    position: absolute;
+    top: 175%;
+    margin-left: 1%;
+}
+
+.minicravindivhead{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.minicravingdivtitle{
+    color: #fff;
+    box-sizing: inherit;
+    text-transform: uppercase;
+    font-weight: 900;
+    width: 384px;
+    font-size: 32px;
+    line-height: 34px;
+    margin: 0%;
+}
+
+.cravlinktt:hover{
+    color: white;
+}
+
+.cravlinktt {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:480px){
+    .maincravingdiv {
+        text-align: left;
+        width: 480px;
+        margin-left: 1%;
+    }
+    .cravindiv {
+        display: block;
+        gap: 0px;
+    }
+    .cravindivimg {
+        height: 336px;
+        width: 470px;
+    }
+    .minicravingdiv {
+        position: static;
+        top: 245%;
+        margin-left: 1%;
+    }
+    .minicravindivhead {
+        color: black;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 900;
+        margin-bottom: 8px;
+    }
+    .cravlinktt {
+        color: black;
+        text-decoration: none;
+    }
+    .minicravingdivtitle {
+        color: #fff;
+        box-sizing: inherit;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 480px;
+        font-size: 31px;
+        line-height: 34px;
+        margin: 0%;
+        margin-bottom: 2%;
+    }
+}

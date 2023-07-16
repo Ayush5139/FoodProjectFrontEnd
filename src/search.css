@@ -1,0 +1,133 @@
+.searchdiv{
+    width: 1471px;
+    height: 229px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.searchtitle{
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --truncate-lines: 4;
+    color: #2f2f2f;
+    font-family: var(--fonts-heading);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin: 0;
+    font-size: 26px;
+}
+
+.ssearchbtn{
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    font-family: var(--fonts-heading);
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2f2f2f;
+    transition: background-color .2s;
+    box-sizing: border-box;
+    background-color: #f5ce35;
+    margin-top: 8px;
+    margin-bottom: 37px;
+    padding: 8px;
+    width: 20%;
+    border: 0px;
+}
+
+.searchinput{
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    font-family: var(--fonts-base);
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 0;
+    color: #2f2f2f;
+    width: 800px;
+    height: 48px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+}
+
+.searchlinktt{
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width:480px){
+    .searchdiv{
+        width: 480px;
+        height: 229px;
+        background-color: #f2f2f2;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        margin-bottom: 2%;
+    }
+    .searchtitle {
+        --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+        --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+        --truncate-lines: 4;
+        color: #2f2f2f;
+        font-family: var(--fonts-heading);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 500;
+        margin: 0;
+        font-size: 24px;
+    }
+    .searchinput {
+        --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+        --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+        font-family: var(--fonts-base);
+        font-weight: 400;
+        font-size: 25px;
+        letter-spacing: 0;
+        color: #2f2f2f;
+        width: 332px;
+        height: 48px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        padding-left: 1%;
+    }
+
+    .ssearchbtn {
+        --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+        --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+        font-family: var(--fonts-heading);
+        font-weight: 500;
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        cursor: pointer;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #2f2f2f;
+        transition: background-color .2s;
+        box-sizing: border-box;
+        background-color: #f5ce35;
+        margin-top: 8px;
+        margin-bottom: 37px;
+        padding: 15px;
+        width: 70%;
+        border: 0px;
+    }
+}

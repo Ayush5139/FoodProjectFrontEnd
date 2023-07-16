@@ -1,0 +1,122 @@
+.mainreview{
+    width: 1216px;
+    margin-left: 9%;
+}
+
+.minireview{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.minireviewall{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #1769c2;
+}
+
+.minireviewmap{
+    font-weight: 400;
+    font-size: 16px;
+    color: #2f2f2f;
+    width: 30%;
+    height: 350px;
+    background: #fff;
+    border: 2px solid #F2F2F2;
+    border-radius: 4px;
+    padding: 16px;
+    display: flex;
+    flex-flow: column;
+    gap: 16px;
+    text-align: left;
+}
+
+.divbeforemap{
+    display: flex;
+    gap: 32px;
+}
+
+.minireviewmapimg{
+    height: 60px;
+    width: 60px;
+    margin: 0%;
+    padding: 0%;  
+}
+
+.minireviewmapmini{
+    display: flex;
+    justify-content: space-between;
+    position: static;
+}
+
+.minireviewmaprating{
+    margin: 0%;
+    padding: 0%;
+    margin-left: 4%;
+}
+
+.minireviewmapdes{
+    margin: 0%;
+    padding: 0%;
+    margin-left: 4%;
+    height: 85%;
+}
+
+.minireviewmaptime{
+    margin: 0%;
+    padding: 0%;   
+}
+
+.minireviewmapreply{
+    margin: 0%;
+    padding: 0%;
+}
+
+.reviewrecipelink{
+    color: black;
+    text-decoration: none;
+}
+
+.linkspan{
+    color: #1769c2;
+}
+
+@media screen and (max-width:480px){
+    .mainreview {
+        width: 480px;
+        margin-left: 1%;
+    }
+
+    .minireviewall {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        text-decoration: none;
+        color: #1769c2;
+        display: none;
+    }
+
+    .divbeforemap {
+        display: block;
+        gap: 0px;
+    }
+
+    .minireviewmap {
+        font-weight: 400;
+        font-size: 16px;
+        color: #2f2f2f;
+        width: 90%;
+        height: 200px;
+        background: #fff;
+        border: 2px solid #F2F2F2;
+        border-radius: 4px;
+        padding: 16px;
+        display: flex;
+        flex-flow: column;
+        gap: 16px;
+        text-align: left;
+        margin-bottom: 5%;
+    }
+}

@@ -1,0 +1,240 @@
+.mainlogindiv {
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --truncate-lines: 4;
+    font-family: var(--fonts-base);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2f2f2f;
+    background: rgb(255, 255, 255);
+    z-index: 1022;
+    position: absolute;
+    overflow: visible;
+    width: 430px;
+    height: auto;
+    max-width: 430px;
+    border-radius: 12px;
+    left: 35%;
+    top: 11%;
+}
+
+.closelogin {
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    font-family: var(--fonts-base);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    --current-line-height: 24px;
+    letter-spacing: 0;
+    color: #2f2f2f;
+    height: 90px;
+    position: relative;
+}
+
+.closebtn {
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    font-family: var(--fonts-heading);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    --current-line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2f2f2f;
+    box-sizing: border-box;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0);
+    outline: 0px;
+    border: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    transition: transform 0.1s ease 0s;
+}
+
+.logintitle {
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --truncate-lines: 4;
+    line-height: 40px;
+    --current-line-height: 40px;
+    font-family: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    color: rgb(47, 47, 47);
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 12px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.loginlabel{
+    text-align: left;
+    margin-left: 6%;
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --truncate-lines: 4;
+    --current-line-height: 24px;
+    letter-spacing: 0;
+    box-sizing: border-box;
+    display: block;
+    color: rgb(47, 47, 47);
+    font-family: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    line-height: 1;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.logininput{
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --truncate-lines: 4;
+    font-weight: 400;
+    width: 80%;
+    height: 48px;
+    padding: 0px 16px;
+    color: rgb(47, 47, 47);
+    font-family: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    font-size: 18px;
+    border-radius: 3px;
+    background: rgb(242, 242, 242);
+    border: 2px solid rgb(230, 0, 61);
+    margin-bottom: 30px;
+}
+
+.loginsubmit{
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    font-family: var(--fonts-heading);
+    line-height: 24px;
+    --current-line-height: 24px;
+    margin-left: 5%;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 51px;
+    cursor: pointer;
+    border: 0px;
+    background: rgba(0, 0, 0, 0);
+    background-color: rgb(245, 206, 53);
+    color: rgb(47, 47, 47);
+    position: relative;
+    margin-top: 15px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.loginforgot{
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --truncate-lines: 4;
+    letter-spacing: 1px;
+    align-items: center;
+    justify-content: center;
+    transition: background-color .2s;
+    box-sizing: border-box;
+    font-size: 16px;
+    cursor: pointer;
+    border: 0px;
+    background: rgba(0, 0, 0, 0);
+    height: auto;
+    font-family: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    color: rgb(23, 105, 194);
+    text-transform: none;
+    display: block;
+    margin: 10px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.donthave{
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    color: #2f2f2f;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: 200;
+    line-height: 24px;
+    letter-spacing: 0;
+    margin: 0px;
+    font-size: 18px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    margin-bottom: 5%;
+}
+
+.loginsignup{
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    line-height: 24px;
+    --current-line-height: 24px;
+    letter-spacing: 1px;
+    align-items: center;
+    justify-content: center;
+    transition: background-color .2s;
+    box-sizing: border-box;
+    font-size: 16px;
+    cursor: pointer;
+    border: 0px;
+    background: rgba(0, 0, 0, 0);
+    height: auto;
+    font-family: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    color: rgb(23, 105, 194);
+    text-transform: none;
+    border-radius: 4px;
+    font-weight: 500;
+    padding: 0px;
+    display: inline;
+}
+
+.signupdes{
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --truncate-lines: 4;
+    color: #2f2f2f;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: var(--fonts-base);
+    font-weight: 200;
+    font-size: 15px;
+    width: 90%;
+    margin-left: 6%;
+    display: block;
+}
+
+.alreadyp{
+    --n: 12;
+    --margin: 32px;
+    --gap: 32px;
+    --good-reading-width: 70ch;
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --truncate-lines: 4;
+    color: #2f2f2f;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: 400;
+    line-height: 24px;
+    --current-line-height: 24px;
+    letter-spacing: 0;
+    margin: 0px;
+    font-size: 18px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10%;
+}

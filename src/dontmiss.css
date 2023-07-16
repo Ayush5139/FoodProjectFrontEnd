@@ -1,0 +1,49 @@
+.dontmissdiv{
+    text-align: left;
+    width: 1216px;
+    margin-left: 9%;
+}
+
+.dontmissminidiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dontmissviewall{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #1769c2;
+}
+
+.minidontmissdiv{
+    position: absolute;
+    top: 345%;
+    margin-left: 0.3%;
+}
+
+@media screen and (max-width:480px) {
+    .dontmissdiv {
+        text-align: left;
+        width: 480px;
+        margin-left: 1%;
+    }
+    .minidontmissdiv {
+        position: static;
+        top: 382%;
+        margin-left: 1%;
+    }
+    .minicravingdivtitle {
+        color: black;
+        box-sizing: inherit;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 480px;
+        font-size: 31px;
+        line-height: 34px;
+        margin: 0%;
+        margin-bottom: 2%;
+    }
+}

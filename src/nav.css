@@ -1,0 +1,376 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+.navdiv {
+    height: 82px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: space-around;
+    padding-left: 8%;
+}
+
+.navul {
+    width: 70%;
+}
+
+.extranavdiv {
+    display: flex;
+    margin-right: 5%;
+}
+
+.navmainul>li:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.navmainul>li {
+    padding-bottom: 15px;
+}
+
+.navmainul {
+    display: flex;
+}
+
+.navli {
+    margin-right: 3%;
+}
+
+.navli:hover .hiddenist {
+    display: block;
+}
+
+
+.subcatli:hover {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+.subcatli {
+    font-weight: lighter;
+}
+
+.hiddenist {
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    color: #fff;
+    display: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    font-family: var(--fonts-base);
+    background-color: #000;
+    text-align: left;
+    position: absolute;
+    left: 22%;
+    padding: 7px 32px 24px 24px;
+    z-index: 2;
+    top: 50px;
+}
+
+.linkttnav {
+    color: white;
+    text-decoration: none;
+}
+
+.linkttnav:hover {
+    color: cadetblue;
+}
+
+.popularhiddenlist{
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    position: absolute;
+    padding: 7px 32px 24px 24px;
+    z-index: 2;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    font-family: var(--fonts-base);
+    background-color: #000;
+    text-align: left;
+    left: 28%;
+    top: 50px;
+    display: none;
+}
+
+.navli:hover .popularhiddenlist {
+    display: block;
+}
+
+.meathiddenlist{
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    position: absolute;
+    padding: 7px 32px 24px 24px;
+    z-index: 2;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    font-family: var(--fonts-base);
+    background-color: #000;
+    text-align: left;
+    left: 35%;
+    top: 50px;
+    display: none;
+}
+
+.navli:hover .meathiddenlist {
+    display: block;
+}
+
+.linkttnav:hover {
+    color: cadetblue;
+}
+
+.healthhiddenlist{
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    position: absolute;
+    padding: 7px 32px 24px 24px;
+    z-index: 2;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    font-family: var(--fonts-base);
+    background-color: #000;
+    text-align: left;
+    left: 46%;
+    top: 50px;
+    display: none;
+}
+
+.navli:hover .healthhiddenlist {
+    display: block;
+}
+
+.holidayhiddenlist{
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    position: absolute;
+    padding: 7px 32px 24px 24px;
+    z-index: 2;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    font-family: var(--fonts-base);
+    background-color: #000;
+    text-align: left;
+    left: 56%;
+    top: 50px;
+    display: none;
+}
+
+.navli:hover .holidayhiddenlist {
+    display: block;
+}
+
+.cusinehiddenlist{
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    position: absolute;
+    padding: 7px 32px 24px 24px;
+    z-index: 2;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    font-family: var(--fonts-base);
+    background-color: #000;
+    text-align: left;
+    left: 62%;
+    top: 50px;
+    display: none;
+}
+
+.navli:hover .cusinehiddenlist {
+    display: block;
+}
+
+
+.seonalhiddenlist{
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    position: absolute;
+    padding: 7px 32px 24px 24px;
+    z-index: 2;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    font-family: var(--fonts-base);
+    background-color: #000;
+    text-align: left;
+    left: 68%;
+    top: 50px;
+    display: none;
+}
+
+.navli:hover .seonalhiddenlist {
+    display: block;
+}
+.accountlist{
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    position: absolute;
+    padding: 7px 32px 24px 24px;
+    z-index: 2;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 35px;
+    letter-spacing: 1px;
+    font-family: var(--fonts-base);
+    background-color: #000;
+    text-align: left;
+    left: 85%;
+    top: 50px;
+    display: none;
+}
+
+.profileli:hover .accountlist{
+    display: block;
+}
+
+.extranavlist{
+    display: flex;
+}
+
+.extranavlist>li {
+    padding-bottom: 15px;
+}
+
+.profileli{
+    margin: 1%;
+}
+
+.blurdiv{
+    background: transparent;
+}
+
+.profilebtn{
+    background-color: black;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+}
+
+.homelink{
+    color: white;
+}
+
+.linkttnav:hover {
+    color: cadetblue;
+}
+
+.subcatli:hover {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+.blurdiv{
+    height: 100vh;
+    width: 100%; 
+    backdrop-filter: blur(15px);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 102;
+}
+
+.extrabtn{
+    border: 0px;
+    color: white;
+    background-color: black;
+    display: none;
+}
+
+.anothernavdiv{
+    width: 480px;
+}
+
+@media screen and (max-width:480px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .navul{
+        display: none;
+    }
+
+    .extrabtn{
+        border: 0px;
+        color: white;
+        background-color: black;
+        display: flex;
+    }
+
+    .navextradiv{
+        margin-left: -12%;
+        display: flex;
+        align-items: center;
+        gap: 5%;
+    }
+
+    .extranavdiv {
+        display: flex;
+        margin-left: 30%;
+    }
+    .profileli{
+        margin: 0%;
+        color: white;
+    }
+    .extranavlist>li {
+        padding-bottom: 0px;
+    }
+    .extranavlist{
+        display: flex;
+        gap: 30%;
+    }
+    .navmainul {
+        display: block;
+        background-color: black;
+        color: white;
+    }
+    .profilebtn{
+        background-color: black;
+        border: 0px;
+        color: white;
+        font-size: 20px;
+    }
+    .linkttnav{
+        color: white;
+        text-decoration: none;
+    }
+    .hiddenist {
+        --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+        --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+        color: #fff;
+        display: none;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 35px;
+        letter-spacing: 1px;
+        font-family: var(--fonts-base);
+        background-color: #000;
+        text-align: left;
+        position: absolute;
+        left: 22%;
+        padding: 7px 32px 24px 24px;
+        z-index: 2;
+        top: 100px;
+    }
+}
+
+
+
+

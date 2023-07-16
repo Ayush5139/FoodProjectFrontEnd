@@ -1,0 +1,157 @@
+.footernav{
+    font-family: "Gotham", "Helvetica Neue", Helvetica, arial, sans serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+    white-space: normal;
+    box-sizing: border-box;
+    background: linear-gradient(140deg,#e41980 10%,#67146e 60%);
+    text-align: center;
+    background-color: #ddd;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 28px 0;
+    width: 100%;
+    padding-top: 76px;
+    padding-bottom: 62px;
+}
+
+.footersearch{
+    font-family: "Gotham", "Helvetica Neue", Helvetica, arial, sans serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+    white-space: normal;
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding: 14px 10px;
+    width: 525px;
+}
+
+.footerp{
+    line-height: 1.15;
+    text-align: center;
+    box-sizing: border-box;
+    color: #000;
+    display: inline-block;
+    font-size: 20px;
+    font-family: brandon-grotesque,"sans serif",sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    text-transform: uppercase;
+    white-space: normal;
+    letter-spacing: 1px;
+    align-items: center;
+    margin: 0%;
+}
+
+.footerinp{
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 0 transparent;
+    border-radius: 0;
+    box-shadow: none;
+    color: #000;
+    padding: 3.5px 0;
+    width: 250px;
+    font-family: Gotham,"sans serif",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    text-transform: none;
+    white-space: normal;
+    letter-spacing: 0;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.suggestiondiv{
+    width: 40%;
+    margin-left: 28%;
+}
+
+.suggestionp{
+    background-clip: padding-box;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 10px;
+    font-family: Gotham,"sans serif",sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    white-space: normal;
+    letter-spacing: 0;
+    height: 30px;
+    line-height: 19px;
+    margin: 7px;
+    min-height: 30px;
+    padding: 5px 14px;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    background-color: #77e2e1;
+    text-transform: capitalize;
+}
+
+.suggestionp:hover{
+    background-color: #892074;
+}
+
+.adfooterdiv{
+    height: 123px;
+    background-color: black;
+    display: flex;
+}
+
+.whitediv{
+    color: white;
+    display: flex;
+    padding: 0%;
+}
+
+.backtotopp{
+    color: white;
+    margin: 0%;
+}
+
+.footerlinktt{
+    text-decoration: none;
+    color: black;
+}
+
+.footerhr{
+    padding: 0%;
+    margin: 0%;
+}
+
+@media screen and (max-width:480px){
+    .footersearch {
+        font-family: "Gotham", "Helvetica Neue", Helvetica, arial, sans serif;
+        font-stretch: normal;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0;
+        text-transform: none;
+        white-space: normal;
+        text-align: center;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #fff;
+        /* padding: 14px 10px; */
+        width: 462px;
+    }   
+}

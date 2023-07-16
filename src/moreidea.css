@@ -1,0 +1,54 @@
+.moreideadiv {
+    text-align: left;
+    width: 1216px;
+    margin-left: 9%;
+}
+
+.moreideaminidiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.moreideaviewall {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #1769c2;
+}
+
+.morebardiv {
+    height: 32px;
+    width: 1216px;
+    background-color: #f2f2f2;
+    margin-top: 2%;
+    margin-left: 0%;
+}
+
+@media screen and (max-width:480px) {
+    .moreideadiv {
+        text-align: left;
+        width: 480px;
+        margin-left: 1%;
+    }
+
+    .trendinallmapdiv {
+        display: flex;
+        gap: 30px;
+        overflow-x: auto;
+    }
+
+    .morebardiv {
+        display: block;
+        margin-top: -42%;
+        margin-left: -5%;
+    }
+    .morebardiv {
+        height: 32px;
+        width: 450px;
+        background-color: #f2f2f2;
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+}

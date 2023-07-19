@@ -1,7 +1,7 @@
 .exploremorediv {
-    width: 1216px;
+    width: 80%;
     text-align: left;
-    margin-left: 9%;
+    margin-left: 10%;
 }
 
 .exploremoreminidiv {
@@ -28,7 +28,7 @@
 
 .explorebar {
     height: 32px;
-    width: 1216px;
+    width: 100%;
     background-color: #f2f2f2;
     margin-top: 2%;
     margin-left: 0%;
@@ -36,28 +36,28 @@
 
 @media screen and (max-width:480px) {
     .exploremorediv {
-        width: 480px;
+        width: 95%;
         text-align: left;
-        margin-left: 1%;
+        margin-left: 2.5%;
     }
 
     .exploremegadiv {
         display: flex;
         flex-wrap: wrap;
-        gap: 48px;
+        gap: 10px;
         margin-top: 1%;
     }
 
     .exploremoreminidiv {
-        width: 216px;
-        height: 216px;
+        width: 48%;
+        height: 48%;
         text-align: center;
     }
     .explorebar {
         height: 32px;
-        width: 450px;
+        width: 95%;
         background-color: #f2f2f2;
         margin-top: 5%;
-        margin-left: 2%;
+        margin-left: 2.5%;
     }
 }

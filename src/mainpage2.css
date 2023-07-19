@@ -71,7 +71,7 @@ body{
 
 .bannerimg{
     width: 100%;
-    box-shadow: 5px -5px 50px ;
+    /* box-shadow: 5px -5px 50px ; */
 }
 
 .bannerminidiv{

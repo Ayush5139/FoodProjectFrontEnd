@@ -1,10 +1,10 @@
 .specialmain{
-    width: 1216px;
+    width: 80%;
     height: 454px;
     border-radius: 4px;
     border: 2px solid #F2F2F2;
     display: flex;
-    margin-left: 9%;
+    margin-left: 10%;
     margin-top: 2%;
 }
 
@@ -53,17 +53,17 @@
 
 @media screen and (max-width:480px){
     .specialmain {
-        width: 448px;
+        width: 95%;
         height: 350px;
         border-radius: 4px;
         border: 2px solid #F2F2F2;
         display: block;
-        margin-left: 3%;
+        margin-left: 2.5%;
         margin-top: 2%;
     }
     .speacialimg {
         height: 250px;
-        width: 444px;
+        width: 100%;
     }
     .speacialminides {
         --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
@@ -87,8 +87,7 @@
     }
     .speacialminitext {
         text-align: left;
-        margin-left: 3%;
+        margin-left: 0;
         margin-top: 2%;
-        width: 400px;
     }
 }

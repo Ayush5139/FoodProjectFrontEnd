@@ -1,8 +1,9 @@
 .fanafvdiv{
     text-align: left;
-    width: 1216px;
-    margin-left: 9%;
+    width: 80%;
+    margin-left: 10%;
 }
+
 .fanfavminidiv{
     display: flex;
     justify-content: space-between;
@@ -32,22 +33,22 @@
 
 .fanfavsallmapdiv{
     display: flex;
-    gap: 27px;
+    gap: 22px;
     flex-wrap: wrap;
 }
 
 @media screen and (max-width:480px) {
     .fanafvdiv {
         text-align: left;
-        width: 480px;
-        margin-left: 1%;
+        width: 95%;
+        margin-left: 2.5%;
     }
 
     .fanfavsallmapdiv {
         display: flex;
-        gap: 27px;
+        gap: 10px;
         flex-wrap: nowrap;
-        overflow-x: auto;
+        overflow-x: scroll;
         margin-bottom: 5%;
     }
 

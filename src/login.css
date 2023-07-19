@@ -238,3 +238,25 @@
     margin-top: 10px;
     margin-bottom: 10%;
 }
+
+@media screen and (max-width:480px){
+    .mainlogindiv {
+        --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+        --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+        --truncate-lines: 4;
+        font-family: var(--fonts-base);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #2f2f2f;
+        background: rgb(255, 255, 255);
+        z-index: 1022;
+        position: static;
+        overflow: visible;
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+        border-radius: 12px;
+        margin-top: 5%;
+    }
+}

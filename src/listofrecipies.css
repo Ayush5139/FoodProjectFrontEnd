@@ -47,9 +47,8 @@
 }
 
 .recipemaincontainer{
-    width: 1520px;
+    width: 100%;
     background-color: #f2f2f2;
-    margin-left: -28%;
     height: 560px;
 }
 
@@ -121,10 +120,10 @@
 
 @media screen and (max-width:480px){
     .recipepagecontainer {
-        width: 400px;
+        width: 95%;
         height: 162px;
         text-align: left;
-        margin-left: 4%;
+        margin-left: 2.5%;
     }
 
     .recipagetitle {
@@ -134,28 +133,32 @@
         text-transform: uppercase;
         letter-spacing: 1px;
         font-size: 36px;
-        width:82%;
+        width:95%;
         margin: 0;
+        margin-bottom: 20px;
     }
 
     .recipepagedes {
         font-family: Gotham,"sans serif",sans-serif,"Helvetica Neue",Helvetica,arial;
         font-weight: 400;
         text-align: left;
-        width: 82%;
+        width: 95%;
         font-size: 12px;
         line-height: 16px;
+        margin: 0%;
+        margin-bottom: 20px;
     }
 
     .recipemaincontainer {
-        width: 480px;
+        width: 100%;
         background-color: #f2f2f2;
-        margin-left: -6.5%;
+        margin-left: 0%;
         height: 560px;
+        margin: 0%;
     }
 
     .recipemainimg {
-        width: 470px;
+        width: 96%;
         height: 349px;
         margin-left: 2%;
         margin-top: 3%;
@@ -163,9 +166,9 @@
     }
 
     .recipefloatingdiv {
-        width: 390px;
+        width: 85%;
         margin-top: -22.5%;
-        margin-left: 3.3%;
+        margin-left: 0%;
         position: relative;
         z-index: 2;
         height: 158px;
@@ -186,6 +189,7 @@
         letter-spacing: 1px;
         font-size: 13px;
         margin-top: 0%;
+        margin: 0%;
     }
 
     .floatingtitle {
@@ -210,5 +214,12 @@
         text-align: left;
         margin-top: 1%;
         font-size: 13px;
+        margin: 0%;
+    }
+
+    .repicemulticat {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }

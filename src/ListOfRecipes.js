@@ -20,7 +20,7 @@ function ListOfRecipes() {
             <div className='recipepagecontainer'>
                 <p className='repicemulticat'>PART OF Kids &amp; Family</p>
                 <h1 class="recipagetitle">10 {category}</h1>
-                <p class="recipepagedes">Whether you're packing <a href="healthy-lunch-box-ideas-6050">lunch for the kiddos</a> or looking for <a href="5-ingredient-lunches-6084">something quick</a> to make the whole family, we've got you covered with these fun, easy meals. The best part? They come together in less than 20 minutes with minimal ingredients. </p>
+                <p class="recipepagedes">Whether you're packing lunch for the kiddosor looking for something quick to make the whole family, we've got you covered with these fun, easy meals. The best part? They come together in less than 20 minutes with minimal ingredients. </p>
                 <div>
                     <img src='https://play-lh.googleusercontent.com/dVsv8Hc4TOUeLFAahxR8KANg22W9dj2jBsTW1VHv3CV-5NCZjP9D9i2j5IpfVx2NTB8' className='socialicons' />
                     <img src='https://cdn3.iconfinder.com/data/icons/picons-social/57/46-facebook-512.png' className='socialicons' />

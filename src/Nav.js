@@ -87,13 +87,14 @@ function Nav() {
       })
     setCount(count + 1)
   }
+  const [message,setMessage] = useState("")
   function signUpFunction() {
     const newObj = {
       email: email,
       password: password
     }
     axios.post("https://food-backend-gub7.onrender.com/signup", { data: newObj })
-      .then((res) => console.log(res))
+      .then((res) => setMessage(res.data.message))
   }
   const [loggedIn, SetLoggedIn] = useState(true)
   function changeLoggedIn() {
@@ -249,6 +250,7 @@ function Nav() {
                   <input type="email" placeholder='your@email.com' className='logininput' onChange={(e) => setEmail(e.target.value)} />
                   <label className='loginlabel'>password</label>
                   <input type="password" placeholder='password' className='logininput' onChange={(e) => setPassword(e.target.value)} />
+                  <p style={{fontSize:"25px"}}>{message}</p>
                   <button className='loginsubmit' onClick={signUpFunction}>Create Account</button>
                   <p className='alreadyp'>Already Member ? <button className='loginsignup' onClick={changeLogin}>Log In</button></p>
                 </div>

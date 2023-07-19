@@ -3,6 +3,8 @@ body {
     margin: 0%;
 }
 
+
+
 .navdiv {
     height: 82px;
     background-color: black;
@@ -294,10 +296,13 @@ body {
 }
 
 .anothernavdiv{
-    width: 480px;
+    width: 100%;
 }
 
 @media screen and (max-width:480px) {
+    ul{
+        display: none;
+    }
     *{
         margin: 0%;
         padding: 0%;
@@ -368,6 +373,9 @@ body {
         padding: 7px 32px 24px 24px;
         z-index: 2;
         top: 100px;
+    }
+    .navli:target .healthhiddenlist {
+        display: block;
     }
 }
 

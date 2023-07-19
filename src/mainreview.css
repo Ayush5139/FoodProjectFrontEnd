@@ -1,0 +1,169 @@
+.mainreviewrevirediv {
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    font-family: var(--fonts-base);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    --current-line-height: 24px;
+    letter-spacing: 0;
+    color: #2f2f2f;
+    list-style: none;
+    box-sizing: inherit;
+    margin-bottom: 16px;
+    border: 2px solid #F2F2F2;
+    border-radius: 4px;
+    margin-top: 2%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.mainreviewreviewuserimg {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 2%;
+}
+
+.main-reviewp {
+    --good-reading-width: 70ch;
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    color: #2f2f2f;
+    list-style: none;
+    word-break: break-word;
+    width: 80%;
+    max-width: var(--good-reading-width);
+    height: max-content;
+    font-family: var(--fonts-base);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    overflow: hidden;
+    margin-left: 8%;
+    text-align: left;
+}
+
+.main-authorp{
+    --good-reading-width: 70ch;
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --n: 12;
+    --margin: 32px;
+    --gap: 32px;
+    --truncate-lines: 4;
+    list-style: none;
+    box-sizing: inherit;
+    text-decoration: none;
+    font-family: var(--fonts-heading);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 16px;
+    --current-line-height: 16px;
+    letter-spacing: 1px;
+    color: #666;
+    text-transform: uppercase;
+    margin-left: 2%;
+}
+
+.minireview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.minireviewall {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #1769c2;
+}
+
+.mainreviewmainreview {
+    font-weight: 400;
+    font-size: 16px;
+    color: #2f2f2f;
+    width: 50%;
+    height: 250px;
+    background: #fff;
+    border: 2px solid #F2F2F2;
+    border-radius: 4px;
+    padding: 16px;
+    display: flex;
+    flex-flow: column;
+    gap: 16px;
+    text-align: left;
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.divbeforemap {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.minireviewmapimg {
+    height: 60px;
+    width: 60px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.minireviewmapmini {
+    display: flex;
+    justify-content: space-between;
+    position: static;
+}
+
+.mainreviewmaprating {
+    margin: 0%;
+    padding: 0%;
+    margin-left: 8%;
+    font-size: 24px;
+}
+
+.mainreviewmapdes {
+    margin: 0%;
+    padding: 0%;
+    margin-left: 8%;
+    height: 85%;
+    font-size: 24px;
+}
+
+.minireviewmaptime {
+    margin: 0%;
+    padding: 0%;
+}
+
+.minireviewmapreply {
+    margin: 0%;
+    padding: 0%;
+}
+
+.reviewrecipelink {
+    color: black;
+    text-decoration: none;
+}
+
+.linkspan {
+    color: #1769c2;
+}
+
+.viewalllink {
+    text-decoration: none;
+}
+
+.mainreviewquestionsinputdiv{
+    display: flex;
+    width: 52%;
+    margin-left: 25%;
+}
+
+.main-reviewimg {
+    display: flex;
+    align-items: center;
+}

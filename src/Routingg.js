@@ -1,10 +1,12 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import AddRecipe from './AddRecipe'
+import AllReviews from './AllReviews'
 import Home from './Home'
 import ListOfRecipes from './ListOfRecipes'
 import MainPage from './MainPage'
 import MainPage2 from './MainPage2'
+import MainReview from './MainReview'
 import ProfilePage from './ProfilePage'
 import SavedPages from './SavedPages'
 import SearchPage from './SearchPage'
@@ -23,6 +25,8 @@ function Routingg() {
             <Route path='/search/:text' element={<SearchPage/>}/>
             <Route path='/item/:name' element={<MainPage/>}/>
             <Route path='/searchpage' element={<SecondarySearchPage/>}/>
+            <Route path='/reviews' element={<AllReviews/>}/>
+            <Route path='/review/:reviewid' element={<MainReview/>}/>
         </Routes>
     </div>
   )

@@ -54,7 +54,45 @@
 }
 
 .extraprofilediv{
-    height: 500px;
-    background-color: #F0F0F0;
-    margin-top: -5%;
+    width: 100%;
+    display: flex;
+    margin-top: 6%;
+}
+
+.listdiv{
+    background-color: white;
+    width: 15%;
+    margin-left: 12%;
+    text-align: left;
+    margin-top: 5%;
+}
+
+.listdiv li{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.profilemapdiv{
+    width: 50%;
+    text-align: left;
+}
+
+.profilemapping{
+    width: 100%;
+    border: #77E2E1 1px solid;
+}
+
+.profilemapping p{
+    margin-left: 2%;
+    font-size: 18px;
+    padding: 0%;
+}
+
+.profilemaplink{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-left: 2%;
 }

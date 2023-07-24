@@ -70,7 +70,8 @@
     text-transform: none;
     white-space: normal;
     letter-spacing: 0;
-    font-size: 12px;
+    font-size: 20px;
+    height: 30px;
     margin-left: 10px;
 }
 
@@ -156,6 +157,31 @@
     margin-right: 20px;
 }
 
+.footerbtn{
+    --fonts-heading: brandon-grotesque, "Helvetica Neue", Helvetica, arial, sans-serif;
+    --fonts-base: Gotham, "Helvetica Neue", Helvetica, arial, sans-serif;
+    font-family: var(--fonts-heading);
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2f2f2f;
+    transition: background-color .2s;
+    box-sizing: border-box;
+    background-color: #f5ce35;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    margin-left: 40%;
+    padding: 8px;
+    width: 20%;
+    border: 0px;
+}
+
 @media screen and (max-width:480px){
     .footersearch {
         font-family: "Gotham", "Helvetica Neue", Helvetica, arial, sans serif;
@@ -174,7 +200,11 @@
         width: 100%;
     }   
     .whitediv li{
-        margin-right: 5%;
+        margin-right: 5%;   
+    }
+
+    .whitediv{
+        flex-wrap: wrap;
     }
     .socialiconsfooter{
         font-size: 24px;

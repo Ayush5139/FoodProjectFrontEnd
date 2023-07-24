@@ -10,7 +10,6 @@
 }
 
 .exploremoreimg {
-    height: 163px;
     width: 163px;
     border-radius: 200px;
 }
@@ -59,5 +58,10 @@
         background-color: #f2f2f2;
         margin-top: 5%;
         margin-left: 2.5%;
+    }
+
+    .exploremoreimg {
+        width: 50%;
+        border-radius: 200px;
     }
 }
